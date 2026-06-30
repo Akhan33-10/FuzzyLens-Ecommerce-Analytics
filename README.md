@@ -6,6 +6,16 @@ End-to-end analytics project on the Maven Fuzzy Factory e-commerce dataset — c
 
 ---
 
+## Project Highlights
+
+- Analyzed **472,871 sessions** and **32,313 orders** across 3 years of e-commerce data
+- Ran a **chi-square significance test** proving a landing page A/B test result was real, not random (p = 0.0074)
+- Quantified the test's impact at an estimated **$27,116 in additional revenue**
+- Recreated the entire SQL analysis natively in **DAX** — including session-level filtering with `CALCULATE` + `ALLEXCEPT` and dynamic measure-switching
+- Found a deeper, non-obvious insight: the page-level lift was small compared to the **desktop vs. mobile conversion gap**, reframing the actual business recommendation
+
+---
+
 ## Project Overview
 
 Maven Fuzzy Factory is an e-commerce business selling plush toys online. This project analyzes three years of website traffic, sales, and an A/B test on the site's landing page to answer three core business questions:
@@ -71,6 +81,17 @@ Two-page interactive dashboard built with PostgreSQL as a live data source and D
 1. **Roll out `/lander-1`** to all eligible gsearch nonbrand traffic — statistically proven 37% conversion lift.
 2. **Reduce or pause socialbook spend** — 77.6% bounce rate signals poor traffic quality relative to cost.
 3. **Prioritize mobile landing page optimization** — both pages convert far better on desktop (3.96% / 5.31%) than mobile (0.89% / 1.61%), and this gap is larger than the page-level A/B lift itself.
+
+---
+
+## Skills Demonstrated
+
+- **Python:** pandas (data cleaning, validation), scipy.stats (chi-square hypothesis testing)
+- **SQL (PostgreSQL):** CTEs, window functions, HAVING vs WHERE, multi-table JOINs, LEFT JOIN logic for conversion funnels
+- **Statistics:** Hypothesis testing, p-values, statistical significance, expected vs. actual comparison
+- **DAX:** CALCULATE with cross-table filtering, ALLEXCEPT, SWITCH + SELECTEDVALUE for dynamic measures, DISTINCTCOUNT
+- **Power BI:** Multi-page report design, custom DAX measures replicating SQL logic, Chiclet slicers, professional dashboard UX
+- **Business analysis:** Translating statistical results into revenue impact and actionable recommendations
 
 ---
 
