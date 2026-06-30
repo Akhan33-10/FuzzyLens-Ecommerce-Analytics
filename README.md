@@ -86,4 +86,8 @@ Two-page interactive dashboard built with PostgreSQL as a live data source and D
 
 ## Dashboard Preview
 
-*(Screenshots below — Traffic Analysis and A/B Testing pages)*
+### Traffic Analysis
+![Traffic Analysis](screenshots/traffic-analysis.png)
+
+### A/B Testing
+![A/B Testing](screenshots/ab-testing.png)
