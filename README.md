@@ -58,7 +58,7 @@ Key queries written (see `/sql` folder):
 
 Ran a chi-square test of independence on the conversion data using `scipy.stats.chi2_contingency`.
 
-**Result:** p-value = 0.0074 (well under the 0.05 threshold) — the conversion lift is statistically significant with 99.26% confidence, not due to chance.
+**Result:** p-value = 0.0074 (< 0.05), indicating the observed conversion lift is statistically significant with 99.26% confidence.
 
 **Action:** Recommend permanently routing all gsearch nonbrand traffic to `/lander-1`.
 
